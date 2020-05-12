@@ -1,0 +1,109 @@
+html {
+	scroll-behavior: smooth;
+}
+.active {
+	background:  #643A79;
+}
+.header-area {
+	background:linear-gradient(rgba(135,80,156,.8),rgba(135,80,156,.8)), url(../img/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 20%;
+	background-attachment: fixed;
+	color: #fff;
+} 
+.service-area {
+	background: linear-gradient(rgba(23,194,164,.9),rgba(23,194,164,.9)), url(../img/services-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 20%;
+	background-attachment: fixed;
+}
+.teem-area {
+	background:linear-gradient(rgba(231,241,248,.8),rgba(231,241,248,.8)), url(../img/portfolio-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 20%;
+	background-attachment: fixed;
+}
+hr {
+	width: 80px;
+	border: 2px solid #C7CACD;
+}
+.teem-area .container img {
+	height: 225px;
+	width: 225px;
+}
+.teem-area .container .row a {
+	text-decoration: none;
+}
+.teem-area .container .row ul li a i {
+	color: #fff;
+	background: #bdd3e0;
+	padding: 7px;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+.skill-area {
+	background: linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,.9)), url(../img/skill-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 20%;
+	background-attachment: fixed;
+}
+.skill-area .container .row svg.radial-progress text {
+	fill: #393939;
+	font-size: 15px;
+}
+.skill-area .container .row svg.radial-progress circle {
+	stroke-width: 5px;
+}
+.skill-area .container .row svg.web circle {
+	stroke: #30bae7;
+}
+.skill-area .container .row svg.html circle {
+	stroke: #d74680;
+}
+.skill-area .container .row svg.graphic circle {
+	stroke: #15c7a8;
+} 
+.skill-area .container .row svg.uiux circle {
+	stroke: #eb7d4b;
+} 
+.portfolio-area {
+	background: linear-gradient(rgba(255,221,153,.9),rgba(255,221,153,.9)),url(../img/portfolio-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 20%;
+	background-attachment: fixed;
+}
+.portfolio-area .container .btn-all button {
+	background: #EBC985;
+	color: #fff;
+	border: none;
+}
+.about-area {
+	background: linear-gradient(rgba(215,70,128,.9),rgba(215,70,128,.9)),url(../img/about-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 20%;
+	background-attachment: fixed;
+}
+.about-area img {
+	height: 90px;
+	width: 90px;
+}
+.contact-area {
+	background: linear-gradient(rgba(60,84,153,.9),rgba(60,84,153,.9)),url(../img/contact-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 20%;
+	background-attachment: fixed;
+}
+.footer-area {
+	background: #344b8e;
+}
+.footer-area ul li a {
+	text-decoration: none;
+}
